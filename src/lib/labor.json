@@ -24,7 +24,7 @@
       "Period": "September 2022 - May 2024",
       "Position": "Senior Software Engineer",
       "Company": "Optum Global Solutions Colombia S.A.S.",
-      "Description": "Migrating the main reporting system of client management from old ASP.NET to Angular and .NET, and designing custom components for the site, such as tree view and autocomplete filter."
+      "Description": "Migrating the main reporting system of client management from old ASP.NET to Angular and .NET, and designing custom components for the site, such as tree view and autocomplete filter. Also, I created the main UX/UI for the new site."
     },
     {
       "Period": "June 2022 - September 2022",
@@ -65,6 +65,7 @@
   ],
   "Skills": {
     "Programming_Languages": [
+      "HTML/CSS/JavaScript",
       "Angular",
       "Vue.js",
       "React",
@@ -74,17 +75,15 @@
       "Java",
       "Python",
       "dotnet",
-      "Git",
-      "TFS",
       "Azure DevOps",
       "Node.js",
       "TypeScript",
-      "Blazor",
-      "HTML",
-      "CSS",
-      "JavaScript"
+      "Blazor"
     ],
     "Tools_and_Environments": [
+      "UI/UX",
+      "Git",
+      "TFS",
       "Visual Studio",
       "Microsoft Office (Word, Excel, PowerPoint)",
       "Azure DevOps",
