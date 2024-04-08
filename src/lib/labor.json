@@ -1,0 +1,117 @@
+{
+  "Personal_Details": {
+    "Name": "Carlos Alfonso Gómez Hernández",
+    "Identity_Document": "CC 1.033.771.274 de Bogotá",
+    "Place_and_Date_of_Birth": "Bogotá | December 25th, 1994",
+    "Phone": "+57 320 438 85 63",
+    "Email": "caragomezher@unal.edu.co",
+    "LinkedIn": "https://www.linkedin.com/in/carlitoshsh/"
+  },
+  "Education": [
+    {
+      "University": "Universidad Nacional de Colombia - Sede Bogotá",
+      "Degree": "Diplomado en Aplicaciones Web y Moviles | Diploma in Web and Mobile Applications",
+      "Year_Obtained": 2021
+    },
+    {
+      "University": "Universidad Nacional de Colombia - Sede Bogotá",
+      "Degree": "Ingeniería de Sistemas y Computación | Systems and Computing Engineering",
+      "Year_Obtained": 2018
+    }
+  ],
+  "Work_Experiences": [
+    {
+      "Period": "September 2022 - May 2024",
+      "Position": "Senior Software Engineer",
+      "Company": "Optum Global Solutions Colombia S.A.S.",
+      "Description": "Migrating the main reporting system of client management from old ASP.NET to Angular and .NET, and designing custom components for the site, such as tree view and autocomplete filter."
+    },
+    {
+      "Period": "June 2022 - September 2022",
+      "Position": ".NET Developer",
+      "Company": "Globant",
+      "Description": "PoC of React Native, Flask and Lit-Elements."
+    },
+    {
+      "Period": "December 2021 - May 2022",
+      "Position": "Software Developer",
+      "Company": "Acciones y Valores S.A.",
+      "Description": "Development of API in .NET Core. Front-end development with Angular, including publishing Angular libraries in an Azure DevOps Artifacts repository."
+    },
+    {
+      "Period": "October 2021 - December 2021",
+      "Position": "Solution Consultant",
+      "Company": "Sophos Solutions",
+      "Description": "Integration of a payment gateway (Kushki) on a Net Core WebApi and Vue.js frontend."
+    },
+    {
+      "Period": "May 2021 - December 2021, April 2022 - August 2022",
+      "Position": "Formador Mision Tic",
+      "Company": "Universidad Nacional de Colombia",
+      "Description": "Teaching Python, Java and SQL fundamentals to some beneficiaries of MinTic's program Mision Tic, whose could help to close digital divide in Colombia."
+    },
+    {
+      "Period": "May 2018 - October 2021",
+      "Position": "Software Developer",
+      "Company": "Olimpia IT",
+      "Description": "Development of Windows applications and services in .NET Framework and .NET Core. Front-end development with Angular, React, ASP.Net and Blazor."
+    },
+    {
+      "Period": "June 2017 - April 2018",
+      "Position": "System's Consultant Junior",
+      "Company": "Woombat Consulting Group S.A.S.",
+      "Description": "Administration and installation of Hadoop cluster using Cloudera, administration of services in Linux and basic UI development (JQuery, CSS, Javascript and HTML)."
+    }
+  ],
+  "Skills": {
+    "Programming_Languages": [
+      "Angular",
+      "Vue.js",
+      "React",
+      "Svelte",
+      "C#",
+      "Visual Basic",
+      "Java",
+      "Python",
+      "dotnet",
+      "Git",
+      "TFS",
+      "Azure DevOps",
+      "Node.js",
+      "TypeScript",
+      "Blazor",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "Tools_and_Environments": [
+      "Visual Studio",
+      "Microsoft Office (Word, Excel, PowerPoint)",
+      "Azure DevOps",
+      "UNIX bash",
+      "Windows Server",
+      "VMware",
+      "Docker",
+      "Visual Studio Code",
+      "IntelliJ",
+      "Rider",
+      "Hadoop Administrator (Cloudera Manager)"
+    ]
+  },
+  "Languages": [
+    {
+      "Language": "English",
+      "Reading": "Advanced",
+      "Writing": "Intermediate",
+      "Listening": "Intermediate",
+      "Speaking": "Intermediate"
+    },
+    {
+      "Language": "Spanish",
+      "Reading": "Native language",
+      "Writing": "Native language",
+      "Listening": "Native language",
+      "Speaking": "Native language"
+    }
+  ]
+}
