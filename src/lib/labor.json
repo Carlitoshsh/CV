@@ -24,13 +24,13 @@
       "Period": "September 2022 - May 2024",
       "Position": "Senior Software Engineer",
       "Company": "Optum Global Solutions Colombia S.A.S.",
-      "Description": "Migrating the main reporting system of client management from old ASP.NET to Angular and .NET, and designing custom components for the site, such as tree view and autocomplete filter. Also, I created the main UX/UI for the new site."
+      "Description": "Migrating the main reporting system of client management from old ASP.NET to Angular and .NET, and designing custom components for the site, such as tree view and autocomplete filter. Also, I created the main UX/UI for the new site and helped with the deployment to On-Premise (IIS) and AWS clients."
     },
     {
       "Period": "June 2022 - September 2022",
       "Position": ".NET Developer",
       "Company": "Globant",
-      "Description": "PoC of React Native, Flask and Lit-Elements."
+      "Description": "Development of PoC in React Native, Flask and Lit-Elements."
     },
     {
       "Period": "December 2021 - May 2022",
@@ -71,12 +71,15 @@
       "React",
       "Svelte",
       "C#",
+      "Express",
+      "Sass",
+      "SEO",
       "Visual Basic",
       "Java",
       "Python",
       "dotnet",
       "Azure DevOps",
-      "Node.js",
+      "NodeJS",
       "TypeScript",
       "Blazor"
     ],
