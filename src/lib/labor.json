@@ -3,7 +3,7 @@
     "Name": "Carlos Alfonso Gómez Hernández",
     "Identity_Document": "CC 1.033.771.274 de Bogotá",
     "Place_and_Date_of_Birth": "Bogotá | December 25th, 1994",
-    "Phone": "+57 320 438 85 63",
+    "Phone": "+573204388563",
     "Email": "caragomezher@unal.edu.co",
     "LinkedIn": "https://www.linkedin.com/in/carlitoshsh/"
   },
@@ -99,6 +99,15 @@
       "IntelliJ",
       "Rider",
       "Hadoop Administrator (Cloudera Manager)"
+    ],
+    "Soft_Skills": [
+      "Analysis",
+      "Creativity",
+      "Team-building",
+      "Detail-oriented",
+      "Questioning",
+      "Ambitious",
+      "Adaptability"
     ]
   },
   "Languages": [

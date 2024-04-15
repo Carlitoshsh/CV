@@ -8,9 +8,10 @@
 		<h2>Personal Details</h2>
 		<p>Identity Document: {jsonData.Personal_Details.Identity_Document}</p>
 		<p>Place and Date of Birth: {jsonData.Personal_Details.Place_and_Date_of_Birth}</p>
-		<p>Phone: <a target="_blank" href="tel:+573204388563">{jsonData.Personal_Details.Phone}</a></p>
+		<p>Phone: <a target="_blank" href="tel:{jsonData.Personal_Details.Phone}">{jsonData.Personal_Details.Phone}</a></p>
 		<p>
-			Email: <a target="_blank" href="mailto:{jsonData.Personal_Details.Email}">{jsonData.Personal_Details.Email}</a
+			Email: <a target="_blank" href="mailto:{jsonData.Personal_Details.Email}"
+				>{jsonData.Personal_Details.Email}</a
 			>
 		</p>
 		<p>
@@ -19,7 +20,10 @@
 			>
 		</p>
 	</section>
-
+	<section id="description">
+		<h2>About me</h2>
+		<p>{jsonData.Intro}</p>
+	</section>
 	<section id="education">
 		<h2>Education</h2>
 		<ul>
@@ -48,8 +52,9 @@
 
 	<section id="skills">
 		<h2>Skills</h2>
-		<p>Programming Languages and Frameworks: {jsonData.Skills.Programming_Languages.join(', ')}</p>
-		<p>Tools and Environments: {jsonData.Skills.Tools_and_Environments.join(', ')}</p>
+		<p><i>Programming Languages and Frameworks:</i> {jsonData.Skills.Programming_Languages.join(', ')}</p>
+		<p><i>Tools and Environments:</i> {jsonData.Skills.Tools_and_Environments.join(', ')}</p>
+		<p><i>Soft Skills:</i> {jsonData.Skills.Soft_Skills.join(', ')}</p>
 	</section>
 
 	<section id="languages">
@@ -70,17 +75,26 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=M+PLUS+1+Code:wght@100..700&display=swap');
 	:root {
 		--margin: 2rem;
+		--double-margin: 3rem;
+		--half-margin: 0.5rem;
+		--mini-margin: 0.25rem;
 		--space: 1rem;
 		--line-hg: 1.5;
 	}
 	h1,
 	h2 {
-		font-family: 'Cascadia Code', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: 'DM Mono', Tahoma, Geneva, Verdana, sans-serif;
+	}
+	h2 {
+		border-left: var(--margin) solid aquamarine;
+		padding-left: var(--half-margin);
+		width: fit-content;
 	}
 	main:not(h1, h2) {
-		margin: var(--margin);
+		margin: var(--double-margin) var(--margin);
 		font-family: 'Bitter', Cochin, Georgia, Times, 'Times New Roman', serif;
 	}
 	ul {
@@ -92,6 +106,7 @@
 	}
 	p,
 	li {
+		text-align: justify;
 		line-height: var(--line-hg);
 		margin: 0;
 	}
