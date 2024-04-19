@@ -61,11 +61,8 @@
 		<ul>
 			{#each jsonData.Languages as language}
 				<li>
-					Language: {language.Language}<br />
-					Reading: {language.Reading}<br />
-					Writing: {language.Writing}<br />
-					Listening: {language.Listening}<br />
-					Speaking: {language.Speaking}
+					<strong>{language.Language}</strong><br />
+					{language.Proficiency}<br />
 				</li>
 			{/each}
 		</ul>

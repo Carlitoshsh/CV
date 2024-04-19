@@ -107,17 +107,11 @@
   "Languages": [
     {
       "Language": "English",
-      "Reading": "Advanced",
-      "Writing": "Intermediate",
-      "Listening": "Intermediate",
-      "Speaking": "Intermediate"
+      "Proficiency": "Intermediate"
     },
     {
       "Language": "Spanish",
-      "Reading": "Native language",
-      "Writing": "Native language",
-      "Listening": "Native language",
-      "Speaking": "Native language"
+      "Proficiency": "Native"
     }
   ]
 }
