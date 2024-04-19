@@ -6,9 +6,6 @@
 	<h1>{jsonData.Personal_Details.Name}</h1>
 	<section id="personal-details">
 		<h2>Personal Details</h2>
-		<p>Identity Document: {jsonData.Personal_Details.Identity_Document}</p>
-		<p>Place and Date of Birth: {jsonData.Personal_Details.Place_and_Date_of_Birth}</p>
-		<p>Phone: <a target="_blank" href="tel:{jsonData.Personal_Details.Phone}">{jsonData.Personal_Details.Phone}</a></p>
 		<p>
 			Email: <a target="_blank" href="mailto:{jsonData.Personal_Details.Email}"
 				>{jsonData.Personal_Details.Email}</a
@@ -24,18 +21,7 @@
 		<h2>About me</h2>
 		<p>{jsonData.Intro}</p>
 	</section>
-	<section id="education">
-		<h2>Education</h2>
-		<ul>
-			{#each jsonData.Education as experience}
-				<li>
-					<strong>{experience.Degree}</strong><br />
-					University: <u>{experience.University}</u><br />
-					Year Obtained: {experience.Year_Obtained}
-				</li>
-			{/each}
-		</ul>
-	</section>
+
 
 	<section id="work-experiences">
 		<h2>Work Experiences</h2>
@@ -45,6 +31,19 @@
 					<strong>{experience.Position}</strong> at <i>{experience.Company}</i><br />
 					Period: <u>{experience.Period}</u><br />
 					Description: {experience.Description}
+				</li>
+			{/each}
+		</ul>
+	</section>
+
+	<section id="education">
+		<h2>Education</h2>
+		<ul>
+			{#each jsonData.Education as experience}
+				<li>
+					<strong>{experience.Degree}</strong><br />
+					University: <u>{experience.University}</u><br />
+					Year Obtained: {experience.Year_Obtained}
 				</li>
 			{/each}
 		</ul>
