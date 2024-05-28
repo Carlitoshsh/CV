@@ -22,50 +22,53 @@
 		<p>{jsonData.Intro}</p>
 	</section>
 
-
 	<section id="work-experiences">
 		<h2>Work Experiences</h2>
-		<ul>
-			{#each jsonData.Work_Experiences as experience}
-				<li>
-					<strong>{experience.Position}</strong> at <i>{experience.Company}</i><br />
-					Period: <u>{experience.Period}</u><br />
-					Description: {experience.Description}
-				</li>
+		{#each jsonData.Work_Experiences as experience}
+			<p><strong>{experience.Position}</strong> at <i>{experience.Company}</i></p>
+			<p>Period: <u>{experience.Period}</u></p>
+			{#each experience.Description as respons}
+				<ul>
+					<li>{respons}</li>
+				</ul>
 			{/each}
-		</ul>
+		{/each}
 	</section>
 
 	<section id="education">
 		<h2>Education</h2>
-		<ul>
+		<div class="mini-space">
 			{#each jsonData.Education as experience}
-				<li>
-					<strong>{experience.Degree}</strong><br />
-					University: <u>{experience.University}</u><br />
-					Year Obtained: {experience.Year_Obtained}
-				</li>
+				<div>
+					<p><strong>{experience.Degree}</strong></p>
+					<p>University: <u>{experience.University}</u> - {experience.Year_Obtained}</p>
+				</div>
 			{/each}
-		</ul>
+		</div>
 	</section>
 
 	<section id="skills">
 		<h2>Skills</h2>
-		<p><i>Programming Languages and Frameworks:</i> {jsonData.Skills.Programming_Languages.join(', ')}</p>
-		<p><i>Tools and Environments:</i> {jsonData.Skills.Tools_and_Environments.join(', ')}</p>
-		<p><i>Soft Skills:</i> {jsonData.Skills.Soft_Skills.join(', ')}</p>
+		<div class="mini-space">
+			<p>
+				<i>Programming Languages and Frameworks:</i>
+				{jsonData.Skills.Programming_Languages.join(', ')}
+			</p>
+			<p><i>Tools and Environments:</i> {jsonData.Skills.Tools_and_Environments.join(', ')}</p>
+			<p><i>Soft Skills:</i> {jsonData.Skills.Soft_Skills.join(', ')}</p>
+		</div>
 	</section>
 
 	<section id="languages">
 		<h2>Languages</h2>
-		<ul>
+		<div class="mini-space">
 			{#each jsonData.Languages as language}
-				<li>
-					<strong>{language.Language}</strong><br />
-					{language.Proficiency}<br />
-				</li>
+				<div>
+					<p><strong>{language.Language}</strong></p>
+					<p>{language.Proficiency}</p>
+				</div>
 			{/each}
-		</ul>
+		</div>
 	</section>
 </main>
 
@@ -85,7 +88,7 @@
 		font-family: 'DM Mono', Tahoma, Geneva, Verdana, sans-serif;
 	}
 	h2 {
-		border-left: var(--margin) solid aquamarine;
+		border-left: var(--margin) solid rgb(151, 207, 253);
 		padding-left: var(--half-margin);
 		width: fit-content;
 	}
@@ -97,8 +100,11 @@
 		display: flex;
 		flex-direction: column;
 		gap: var(--space);
-		list-style-type: none;
-		padding-left: 0;
+	}
+	.mini-space {
+		display: flex;
+		flex-direction: column;
+		gap: var(--half-margin);
 	}
 	p,
 	li {
